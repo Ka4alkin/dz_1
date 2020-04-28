@@ -10,7 +10,7 @@ function start () {
         money = +prompt("Ваш бюджет на месяц?", '');
     }
 }
-start ();
+//start ();
 
 let appData = {
     budget: money,
@@ -91,8 +91,14 @@ let appData = {
 };
 
 
+let a = prompt('Ведите число','');
 
 
+while( a != null ) {
+    a = prompt('Ведите число','');
+}
+
+console.log(a);
 
 
 //============================================================================
